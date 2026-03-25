@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reglamento - Estacionamiento TESE</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f0f4f8;
+      color: #222;
+    }
+
+    header {
+      background: #003366;
+      color: white;
+      padding: 24px 20px 16px;
+      text-align: center;
+    }
+
+    header h1 { font-size: 1.6rem; letter-spacing: 1px; }
+    header p  { font-size: 0.95rem; opacity: 0.85; margin-top: 4px; }
+
+    .badge {
+      display: inline-block;
+      background: #ffc107;
+      color: #003366;
+      font-weight: bold;
+      font-size: 0.75rem;
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin-top: 8px;
+      letter-spacing: 0.5px;
+    }
+
+    main { max-width: 640px; margin: 0 auto; padding: 20px 16px 40px; }
+
+    section {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 18px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    }
+
+    section h2 {
+      font-size: 1rem;
+      color: #003366;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    ol, ul { padding-left: 20px; }
+    li { margin-bottom: 8px; font-size: 0.92rem; line-height: 1.5; }
+
+    .aviso {
+      background: #fff3cd;
+      border-left: 4px solid #ffc107;
+      border-radius: 8px;
+      padding: 12px 16px;
+      font-size: 0.88rem;
+      color: #555;
+    }
+
+    .contacto-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 18px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 0.95rem;
+      transition: opacity 0.2s;
+    }
+    .btn:active { opacity: 0.75; }
+    .btn-whatsapp { background: #25D366; color: white; }
+    .btn-email    { background: #003366; color: white; }
+    .btn-tel      { background: #e9ecef; color: #003366; }
+
+    .btn-icon { font-size: 1.4rem; }
+
+    footer {
+      text-align: center;
+      font-size: 0.78rem;
+      color: #999;
+      padding: 10px 0 30px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🏍️ Estacionamiento TESE</h1>
+  <p>Tecnológico de Estudios Superiores de Ecatepec</p>
+  <span class="badge">REGLAMENTO OFICIAL</span>
+</header>
+
+<main>
+
+  <section>
+    <h2>📋 Reglamento General</h2>
+    <ol>
+      <li>El estacionamiento es <strong>exclusivo para motocicletas</strong> de la comunidad TESE (alumnos, docentes y personal administrativo).</li>
+      <li>Es obligatorio presentar <strong>credencial vigente</strong> al ingresar al plantel.</li>
+      <li>Cada moto debe estacionarse <strong>únicamente en el cajón asignado</strong> por el sistema.</li>
+      <li>Queda prohibido <strong>invadir cajones ajenos</strong> o bloquear el acceso a otros vehículos.</li>
+      <li>El conductor es responsable de <strong>asegurar su vehículo</strong> con candado o cadena.</li>
+      <li>La institución <strong>no se hace responsable</strong> por daños, robos o pérdidas de objetos dentro del estacionamiento.</li>
+      <li>El horario de servicio es de <strong>7:00 a 21:00 hrs</strong> en días hábiles.</li>
+      <li>Queda estrictamente prohibido <strong>circular a velocidad excesiva</strong> dentro del estacionamiento.</li>
+      <li>No se permite el ingreso de motos <strong>sin placas vigentes</strong>.</li>
+      <li>El incumplimiento del reglamento puede resultar en <strong>suspensión del servicio</strong>.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>⚠️ Avisos Importantes</h2>
+    <div class="aviso">
+      Cualquier incidente (accidente, robo, daño) debe reportarse <strong>de inmediato</strong> al personal de seguridad o a la administración del plantel.
+    </div>
+    <br/>
+    <div class="aviso">
+      El uso del estacionamiento implica la <strong>aceptación total</strong> de este reglamento.
+    </div>
+  </section>
+
+  <section>
+    <h2>📞 Contacto y Ayuda</h2>
+    <div class="contacto-grid">
+
+      <a class="btn btn-whatsapp"
+         href="https://wa.me/5215500000000?text=Hola%2C%20necesito%20ayuda%20con%20el%20estacionamiento%20TESE"
+         target="_blank">
+        <span class="btn-icon">💬</span>
+        <span>WhatsApp Seguridad</span>
+      </a>
+
+      <a class="btn btn-email"
+         href="mailto:seguridad@tese.edu.mx?subject=Reporte%20Estacionamiento"
+         target="_blank">
+        <span class="btn-icon">✉️</span>
+        <span>Correo Administración</span>
+      </a>
+
+      <a class="btn btn-tel" href="tel:+525512345678">
+        <span class="btn-icon">📱</span>
+        <span>Llamar a Seguridad: 55 1234 5678</span>
+      </a>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  © 2025 TESE · Sistema de Estacionamiento · Todos los derechos reservados
+</footer>
+
+</body>
+</html>
